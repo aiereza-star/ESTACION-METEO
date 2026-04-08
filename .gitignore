@@ -1,0 +1,47 @@
+# Arduino
+*.bin
+*.elf
+*.hex
+*.o
+*.d
+*.a
+*.so
+*.la
+*.lo
+*.lst
+*.class
+*.pdb
+
+# ESP32
+*.bin
+*.elf
+*.hex
+*.o
+*.d
+*.a
+*.so
+*.la
+*.lo
+*.lst
+*.class
+*.pdb
+
+# Build Artifacts
+/build/
+/arduino_project.ino.wifi.
+/arduino_project.ino.blink
+/arduino_project.ino.release
+
+# Temporary Files
+*.tmp
+*.temp
+*.swp
+*~
+
+# IDE Settings
+.vscode/
+.idea/
+*.vscode
+*.idea
+*.sublime-workspace
+*.sublime-project
